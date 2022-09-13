@@ -5,6 +5,6 @@ so i decided to make a generator for them
 To-Do:
 :white_check_mark: :x: (ignore these emojis up here its just so i remember them)
 
-:x: Add country flags (probably as backgrounds)
-:x: Fix Accuracy showing decimals
+:x: Add country flags (probably as backgrounds)<br>
+:x: Fix Accuracy showing decimals<br>
 :x: Fix name showing quotes
