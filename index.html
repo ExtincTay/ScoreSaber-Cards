@@ -5,25 +5,31 @@
   <title>ScoreSaber Cards</title>
 </head>
 <body>
-<h1>ScoreSaber Cards</h1>
+<h1 class="title">ScoreSaber Cards</h1>
 
 <div class="center">
-  <label for="ScoreSaberID">ScoreSaber ID</label>
+  <label for="txtInp">ScoreSaber ID</label>
   <input type="text" id="txtInp" onchange="reload(), getScores(), refetch()" autocomplete="off"></input>
 </div>
 
-<div class="card">
+<div class="center">
+  <label for="bgurl">Background URL</label>
+  <input type="text" id="bgurl" onchange="bgreload() "autocomplete="off"></input>
+</div>
+
+<div class="card" id="bg">
   <img id="pfp" src="OOF.png" class="pfp">
   <div>
-    <h1 id="name"></h1>
+    <h1 class="name" id="name"></h1>
   </div>
-  <div>
+  <div class="rankcss">
     <h1><u>Rank</u></h1>
     <h2 id="rank"></h2>
   </div>
-  <div>
+  <div class="Acccss">
     <h1><u>Accuracy</u></h1>
     <h2 id="Acc"></h2>
+  </div>
 </div>
 <div class="footer">
   <p><a href="https://github.com/ExtincTay/ScoreSaber-Cards">Github</a>  -  <a href="https://taynet.uk">My Site</a>  -  <a href="https://discord.gg/74erf7MAsw">Discord</a></p>
@@ -32,5 +38,6 @@
 <script src="js/pfp.js"></script>
 <script src="js/fetch.js"></script>
 <script src="js/test.js"></script>
+<script src="js/bg.js"></script>
 </body>
 </html>

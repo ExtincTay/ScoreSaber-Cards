@@ -10,26 +10,46 @@ body {
   height: 20%;
 }
 
-h1 {
+.title {
   color: white;
   text-align: center;
+}
+
+h1 {
+  color: white;
 }
 
 h2 {
   color: white;
-  text-align: center;
   font-size: 20px;
 }
 
 label {
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
-    color: white;
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+  color: white;
 }
 
 input,
 label {
-    margin: .4rem 0;
+  margin: .4rem 0;
+}
+
+.name {
+  position: relative;
+  text-align: center;
+}
+
+.rankcss {
+  position: relative;
+  left: 100px;
+  text-align: center;
+}
+
+.Acccss {
+  position: relative;
+  left: -100px;
+  text-align: center;
 }
 
 .pfp{
@@ -53,6 +73,8 @@ label {
   border-width: thick;
   height: 700px;
   width: 500px;
+  background-position: center;
+  background-size: cover;
 }
 
 .footer {
