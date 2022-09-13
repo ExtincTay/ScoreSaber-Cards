@@ -8,5 +8,5 @@ To-Do:
 :x: Add country flags<br>
 :x: Fix Accuracy showing decimals<br>
 :x: Fix name showing quotes<br>
-:x: Custom Backgrounds<br>
-:x: Better card border??
+:white_check_mark: Custom Backgrounds<br>
+:x: Better card border
