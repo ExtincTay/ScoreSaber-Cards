@@ -86,6 +86,7 @@ label {
   width: 100%;
   color: gray;
   text-align: center;
+  font-weight: normal;
 }
 
 .footer a {
@@ -95,6 +96,7 @@ label {
 
 .footer a:hover {
   color: white;
+  font-weight: bold;
 }
 
 .bordersel {
