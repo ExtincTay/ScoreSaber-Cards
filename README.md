@@ -11,4 +11,4 @@ To-Do:
 :x: Fix Accuracy showing decimals<br>
 :x: Fix name showing quotes<br>
 :white_check_mark: Custom Backgrounds<br>
-:x: Better card border
+:x: Better card border (with selector for multiple)
