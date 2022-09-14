@@ -4,7 +4,7 @@
   <link rel="stylesheet" href="css/index.css">
   <title>ScoreSaber Cards</title>
 </head>
-<body>
+<body onLoad="preLoad()">
 <h1 class="title">ScoreSaber Cards</h1>
 
 <div class="center">
@@ -14,19 +14,34 @@
 
 <div class="center">
   <label for="bgurl">Background URL</label>
-  <input type="text" id="bgurl" onchange="bgreload() "autocomplete="off"></input>
+  <input type="text" id="bgurl" onchange="bgreload()" autocomplete="off"></input>
 </div>
 
+<form class="bordersel" autocomplete="off">
+  Border:
+
+  <label for="Squared">Squared
+    <input type="radio" name="Squared" onClick="im('a1'); square()" checked>
+  </label>
+  <label for="Rounded">Rounded
+    <input type="radio" name="Rounded" onClick="im('a2'); round()">
+  </label>
+  <label for="Diamond">Diamond
+    <input type="radio" name="Diamond" onClick="im('a3'); diamond()">
+  </label>
+</form>
+
 <div class="card" id="bg">
+  <img id="a" src="borders/Squared.png" style="position: absolute;">
   <img id="pfp" src="OOF.png" class="pfp">
   <div>
     <h1 class="name" id="name"></h1>
   </div>
-  <div class="rankcss">
+  <div class="rankcss" id="rankcss">
     <h1><u>Rank</u></h1>
     <h2 id="rank"></h2>
   </div>
-  <div class="Acccss">
+  <div class="Acccss" id="Acccss">
     <h1><u>Accuracy</u></h1>
     <h2 id="Acc"></h2>
   </div>
@@ -39,5 +54,6 @@
 <script src="js/fetch.js"></script>
 <script src="js/test.js"></script>
 <script src="js/bg.js"></script>
+<script src="js/border.js"></script>
 </body>
 </html>

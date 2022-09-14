@@ -36,18 +36,22 @@ label {
 }
 
 .name {
-  position: relative;
+  position: absolute;
+  top: 43%;
+  left: 46%;
   text-align: center;
 }
 
 .rankcss {
   position: relative;
+  top: 10%;
   left: 100px;
   text-align: center;
 }
 
 .Acccss {
   position: relative;
+  top: 15%;
   left: -100px;
   text-align: center;
 }
@@ -60,6 +64,8 @@ label {
   height: 150px;
   border-radius: 50%;
   margin-top: 20px;
+  position: relative;
+  top: 2%;
 }
 
 .card {
@@ -67,10 +73,6 @@ label {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  border-radius: 35px;
-  border-style: solid;
-  border-color: white;
-  border-width: thick;
   height: 700px;
   width: 500px;
   background-position: center;
@@ -93,4 +95,24 @@ label {
 
 .footer a:hover {
   color: white;
+}
+
+.bordersel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 20%;
+  color: white;
+}
+
+.bordersel label {
+  display: inline-block;
+  text-align: center;
+  margin: 0 0.2em;
+}
+
+.bordersel label input[type="radio"] {
+  display: block;
+  margin: 0.5em auto;
 }
