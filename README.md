@@ -10,7 +10,5 @@ all dates are in the DD/MM/YYYY format<br>
 
 :x: Add country flags (13/09/2022)<br>
 :x: Fix Accuracy showing decimals (13/09/2022)<br>
-:x: Fix name showing quotes (13/09/2022)<br>
-:white_check_mark: Better card borders (with selector for multiple) (13/09/2022) - (14/09/2022)<br>
-:x: Colours for borders (14/09/2022)<br>
-:white_check_mark: Made the buttons on the bottom bold on hover and they are no longer in the way if you scroll down a little (14/09/2022) - (14/09/2022)
+:white_check_mark: Fix name showing quotes (13/09/2022) - (15/09/2022)<br>
+:x: Colours for borders (14/09/2022)
