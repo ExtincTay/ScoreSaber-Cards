@@ -1,4 +1,4 @@
 function bgreload() {
-    document.getElementById("bg").style.backgroundImage = "url(tay.png)"
+    document.getElementById("bg").style.backgroundImage = "url(../backgrounds/tay.png)"
   }
   
