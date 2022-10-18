@@ -14,3 +14,7 @@ async function getScores() {
     document.getElementById("flag").src = "https://flagcdn.com/w160/" + country + ".png";
   }
   
+function bgreload() {
+    document.getElementById("bg").style.backgroundImage = "url(../backgrounds/zuk.png)"
+  }
+  
